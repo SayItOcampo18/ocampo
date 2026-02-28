@@ -1,5 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:3000'
+  // Replace the link below with your actual Render backend link
+  baseURL: 'https://ocampo.onrender.com' 
 });
