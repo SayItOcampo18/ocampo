@@ -1,8 +1,13 @@
 <template>
-  <MoodForm />
+  <MoodCheck />
 </template>
 
 <script>
-import MoodForm from './components/MoodForm.vue';
-export default { components: { MoodForm } };
+import MoodCheck from "./views/MoodCheck.vue";
+
+export default {
+  components: {
+    MoodCheck
+  }
+};
 </script>
